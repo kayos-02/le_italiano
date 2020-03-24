@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body{margin: 0;box-sizing: border-box;}
+.nav_main{background-color:burlywood;}
+
+.logo{width: 15%; height: 70px;position: relative; margin-top: 12px;margin-bottom: 8px;margin-left:8%;}
+#header{width: 70%; height: 90px;display: flex;  font-size: 13px; justify-content: flex-end;color: black; font-family: 'Open Sans', sans-serif;line-height: 50px; position: relative; margin-top: -90px; margin-left: 325px;
+}
+#face{position: relative;  margin-top: 32.2px;}
+#insta{position: relative; margin-top: 35.2px; margin-left:-16px;}
+a{color: black; display: block;text-decoration:none;margin: 30px 30px 20px 0px;text-transform: uppercase;}
+a:hover{ color: darkgoldenrod; display: block;height: 100px;text-transform: uppercase;font-size: 15px;}
+.hero{ visibility: visible; }
+.hero1{display:none;}
+.hero2{display: none;}
+#list_button li{margin:0px 8px;}
+#list_button{display: flex; justify-content: flex-start;  position: relative;bottom: 150px; z-index: 1; margin-left: 8%; list-style-type: circle;  font-size: 35px; }
+.back{height: 420px; background-color: burlywood;margin-top: -115PX}
+#men{font-family: 'Open Sans', sans-serif; font-size: 50px; margin-top: -50px;text-align: center; }
+#menu_pic{display: flex; justify-content:space-between; margin: 0px 22.5% ; }
+.menu_text{ display: flex;  justify-content:space-between; margin: 0 22.5% ;}
+#menu_h1{font-size: 18px;font-family: 'Open Sans', sans-serif;text-align: center;}
+#menu_h2{font-size: 18px;font-family: 'Open Sans', sans-serif;text-align: center;}
+#menu_h3{font-size: 18px;font-family: 'Open Sans', sans-serif;text-align: center;}
+#menu_body{display:flex;justify-content:space-between;flex-basis: 100px;margin:0 19%;}
+#menu_head1{font-size: 12px;font-family: 'Open Sans', sans-serif;text-align: center;flex-basis: 225px;}
+#menu_head2{font-size: 12px;font-family: 'Open Sans', sans-serif;text-align: center;flex-basis: 225px;}
+#menu_head3{font-size: 12px;font-family: 'Open Sans', sans-serif;text-align: center;flex-basis: 225px;}
+.more{display: flex; justify-content: space-between;margin: 0px 23.5%;height: 30px;position:relative;}
+#more1{background-color: black;border-radius: 5px; font-family: 'Open Sans', sans-serif; width:70px;text-align: center; }
+#more2{background-color: black;border-radius: 5px; font-family: 'Open Sans', sans-serif;width:70px;text-align: center;}
+#more3{background-color: black;border-radius: 5px; font-family: 'Open Sans', sans-serif; width:70px;text-align: center;}
+.more a{color: white; display: block;text-decoration:none;text-align: center;margin-top:2.5px;height: 30px;text-transform:capitalize;width:70px;text-align:center; }
+
+.more a:hover{width:70px;color: darkgoldenrod; display: block;font-size: 17px;text-transform:capitalize;text-align:center; height: 35px }
+.heading{font-family: 'Open Sans', sans-serif; font-size: 25px;}
+.footer{background-color: antiquewhite; height:100px;}
